@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+
+class CustomerController
+{
+  public initiateCustomerRegistration()
+  {
+    CustomerUI=new CustomerUI();
+    ArrayList<Object> newCustomerDetails= claimUI.getNewCustomerDetails();
+  }
+}

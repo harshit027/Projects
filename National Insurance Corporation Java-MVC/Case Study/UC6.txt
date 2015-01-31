@@ -1,0 +1,25 @@
+UC6-Process Matured Policies
+
+Level: User goal
+
+Scope: National Insurance Company
+
+Primary Actor: Accounts Clerk
+
+Stakeholders and interests:
+• Clerk:
+o Wants the system to accurately process the matured policies.
+• NIC:
+o Wants to make the processing of matured policies fast and reliable.
+
+Preconditions:
+• None
+
+Success Guarantee: All the matured policies must be processed.
+
+Main Success Scenario:
+1. Clerk initiates the processing of matured policies
+2. System processes all matured policies them.
+
+Extensions:
+none

@@ -1,0 +1,25 @@
+UC7-Generate Reports
+
+Level: User goal
+
+Scope: National Insurance Company
+
+Primary Actor: Accounts Clerk
+
+Stakeholders and interests:
+• Clerk:
+o Wants the system to accurately process the respective reports.
+• NIC:
+o Wants to make the processing of reports fast and reliable.
+
+Preconditions:
+• None
+
+Success Guarantee: All the reports must be processed.
+
+Main Success Scenario:
+1. Clerk initiates the processing of reports.
+2. System generates the report
+
+Extensions:
+none

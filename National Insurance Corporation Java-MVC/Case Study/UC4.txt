@@ -1,0 +1,32 @@
+UC4-Make Policy 
+
+Level: User goal
+
+Scope: National Insurance Company
+
+Primary Actor: Acc Clerk
+
+Stakeholders and interests:
+• Customer:
+o Wants to recieve payment reciept and policy Id.
+• Clerk:
+o Wants the system to accurately register the customer details and generate policy id and reciept.
+• NIC:
+o Wants to make claim registration and generation process fast and reliable.
+
+Preconditions:
+• Customer details have been forwarded by P&C 
+• Customer has made payment.
+
+Success Guarantee: Customer's policy is registered and policy id and reciept are generated.
+
+Main Success Scenario:
+1. Customer goes to Account Dept to collect reciept.
+2. System validates the customer details
+3. Clerk registers the customer details into the system.
+4. System generates reciept and policy id.
+
+Extensions:
+2a. Invalid Customer Details
+1. System displays an error message.
+2. System displays menu.

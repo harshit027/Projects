@@ -1,0 +1,38 @@
+UC5-Settle Claim 
+
+Level: User goal
+
+Scope: National Insurance Company
+
+Primary Actor: Acc Clerk
+
+Stakeholders and interests:
+
+• Customer:
+o Wants to settle his claim. 
+• Clerk:
+o Wants the system to accurately check for validity of the claim and  settle it
+• NIC:
+o Wants to make claim settlement process fast and reliable.
+
+Preconditions:
+• Claim should exist in the system.
+
+Success Guarantee: Claim is successfully settled.
+
+Main Success Scenario:
+1. Customer goes to account dept to settle claim.
+2. Clerk enters the claim details.
+3. System checks for validity of claim details.
+4. System checks whether the claim has not been settled and claim has been accepted.
+5. System settles the claim and updates claim settlement status.
+
+Extensions:
+3a. Invalid Claim Details 
+1. System displays an error message.
+2. System displays menu.
+4a. Claim already settled or claim rejected
+1.System displays appropriate message.
+2.System displays menu.
+
+

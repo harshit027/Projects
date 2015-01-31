@@ -1,0 +1,11 @@
+import java.util.Date;
+
+class Claim
+{
+  //Data Members
+  
+  private int claimId;
+  private Date claimDate;
+  private int customerId;
+  private boolean status;
+}

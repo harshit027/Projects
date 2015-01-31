@@ -1,0 +1,34 @@
+class ReportGenerator
+{
+  public void generateReport(int type)
+  {
+    switch(type)
+    {
+      case :1
+      {
+        NIC.processMaturedPolicies();
+        break;
+      }
+      case :2
+      {
+        NIC.generateProductReport();
+        break;
+      }
+      case :3
+      {
+        NIC.generateNewPolicyReport();
+        break;
+      }
+      case :4
+      {
+        NIC.generateMaturedPolicyReport();
+        break;
+      }
+      case :5
+      {
+        NIC.generateClaimsReport();
+        break;
+      }
+    }
+  }
+}

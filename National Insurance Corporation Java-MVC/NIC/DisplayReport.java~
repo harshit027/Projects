@@ -1,0 +1,7 @@
+class DisplayReport
+{
+  public void display(String reportName, int reportValue)
+  {
+  
+  }
+}

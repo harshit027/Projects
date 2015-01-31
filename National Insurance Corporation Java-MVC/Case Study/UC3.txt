@@ -1,0 +1,29 @@
+UC3-Update Claim 
+
+Level: User goal
+
+Scope: National Insurance Company
+
+Primary Actor: P & C Clerk
+
+Stakeholders and interests:
+• Clerk:
+o Wants the system to accurately update the claim validity details .
+• NIC:
+o Wants to make updation process fast and reliable.
+
+Preconditions:
+• The claim should exist in the system.
+
+Success Guarantee: Validation details are updated in the system. 
+
+Main Success Scenario:
+1. Clerk enters the updation details into the system.
+2. System validates the updation details.
+3. System records the updated details.
+
+
+Extensions:
+2a. Invalid Updation Details
+1. System displays an error message.
+2. System displays menu.

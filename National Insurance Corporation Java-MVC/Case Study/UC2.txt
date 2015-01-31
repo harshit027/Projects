@@ -1,0 +1,30 @@
+UC2-Enter Claim
+
+
+Level: User goal
+Scope: National Insurance Company
+Primary Actor: P & C Clerk
+Stakeholders and interests:
+
+• Customer:
+o Wants to register his claim with NIC and get claim id. 
+• Clerk:
+o Wants the system to accurately record the claim details provided by the customer and issue claim id.
+• NIC:
+o Wants to make claim registration process fast and reliable.
+
+Preconditions:
+• Customer should have a policy with NIC
+
+Success Guarantee:  Claim details given by the customer is recorded and claim id is generated. 
+
+Main Success Scenario:
+1. Customer arrives at NIC and provides claim details 
+2. Clerk enters the details into the system
+3. System validates the claim details.
+4. The claim details are saved in the system and claim id is issued.
+
+Extensions:
+3a. Invalid Claim Details
+1. System displays an error message.
+2. System displays menu.

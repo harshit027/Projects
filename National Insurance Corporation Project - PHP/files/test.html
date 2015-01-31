@@ -1,0 +1,167 @@
+<html>
+<head>
+<script type="text/javascript">
+function showAbout()
+{
+document.getElementById('productSpan').style.visibility='hidden';
+document.getElementById('contactSpan').style.visibility='hidden';
+document.getElementById('aboutSpan').style.visibility='visible';
+
+document.getElementById('aboutus1').style.visibility='visible';
+document.getElementById('product1').style.visibility='hidden';
+document.getElementById('contactus1').style.visibility='hidden';
+}
+
+function showContact()
+{
+document.getElementById('productSpan').style.visibility='hidden';
+document.getElementById('aboutSpan').style.visibility='hidden';
+document.getElementById('contactSpan').style.visibility='visible';
+
+document.getElementById('contactus1').style.visibility='visible';
+document.getElementById('product1').style.visibility='hidden';
+document.getElementById('aboutus1').style.visibility='hidden';
+
+}
+
+function showProduct()
+{
+document.getElementById('contactSpan').style.visibility='hidden';
+document.getElementById('aboutSpan').style.visibility='hidden';
+document.getElementById('productSpan').style.visibility='visible';
+
+
+document.getElementById('product1').style.visibility='visible';
+document.getElementById('aboutus1').style.visibility='hidden';
+document.getElementById('contactus1').style.visibility='hidden';
+
+}
+
+
+function overProd()
+{
+window.status='Our Products';
+document.getElementById('product1').style.visibility='visible';
+outAbout();
+outContact();
+}
+
+
+function overAbout()
+{
+window.status='About Us';
+document.getElementById('aboutus1').style.visibility='visible';
+outProd();
+outContact();
+
+}
+
+function overContact()
+{
+document.getElementById('contactus1').style.visibility='visible';
+window.status='Contact Us';
+outAbout();
+outProd();
+}
+
+
+function outProd()
+{
+window.status='';
+document.getElementById('product1').style.visibility='hidden';
+}
+
+
+function outAbout()
+{
+document.getElementById('aboutus1').style.visibility='hidden';
+window.status='';
+}
+
+function outContact()
+{
+document.getElementById('contactus1').style.visibility='hidden';
+window.status='';
+}
+
+
+
+</script>
+
+<style type="text/css">
+.tabSpan
+{
+background-color:#008888;
+color:#ffffff;
+height:200px;
+width:450px;
+}
+
+
+.blanks
+{
+background-color:#000000;
+width:150px;
+height:2px;
+position:relative;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<span style="cursor:pointer" onMouseover="overProd();"  onMouseOut="window.status=''"  onMouseup="showProduct();" onFocus="" onBlur="">
+<img src='images/products.jpg'style=""/>
+<img id='product1' src='images/products1.jpg'style="visibility:visible;position:absolute;left:10px;"/>
+</span>
+
+<span style="cursor:pointer" onMouseover="overAbout();" onMouseOut="window.status=''" onMouseup="showAbout();" onFocus="" onBlur="" style="position:relative;left='-3px'">
+<img src='images/aboutUs.jpg'  />
+<img id='aboutus1' src='images/aboutUs1.jpg'style="visibility:hidden;position:absolute;left:0px;" />
+</span>
+
+
+<span style="cursor:pointer" onMouseover="overContact();" onMouseOut="window.status=''" onMouseup="showContact();" onFocus="" onBlur=""  style="position:relative;left='-6px'">
+<img src='images/contactUs.jpg' />
+<img id='contactus1' src='images/contactUs1.jpg' style="visibility:hidden;position:absolute;left:0px;"/>
+</span>
+
+
+
+
+
+</span>
+<br />
+
+
+<div class='tabSpan' id='productSpan' style="position:absolute;visibility:visible" >
+we have a bunch of products
+</div>
+
+
+
+<div class='tabSpan' id='contactSpan' style="position:absolute;visibility:hidden">
+
+For any information, please call our Toll Free Customer care helpline 1800 123 456 or SMS NIC to 55555
+You can also write to us at National Insurance Co, MG Road, Trivandrum 
+We look forward to hearing from you
+
+</div>
+
+
+
+
+<div class='tabSpan' id='aboutSpan' style="position:absolute;visibility:hidden">
+National Insurace Company (A Govt. of India undertaking) is the largest insurance provider in India. Established in 1906, it is the oldest insurance company in India.
+We at National Insurance strive to provide the best services to all our policy holders. 
+
+
+</div>
+
+
+
+</body>
+</html>
